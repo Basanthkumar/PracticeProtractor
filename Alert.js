@@ -20,6 +20,8 @@ describe('practicing alert function in protractor', function() {
         var popupAlert =  browser.switchTo().alert()
         popupAlert.getText().then(function(alertText) {
             console.log(alertText);
+            console.log("pushing code to git");
+
         });
     });
 
